@@ -1,0 +1,126 @@
+ /* name: Ayesha tahir
+rollno: 103 */
+/* Reset some default styling */
+body, h1, p {
+    margin: 0;
+}
+.intro img{
+    margin-right: 10%;
+}
+
+.header {
+    position: relative;
+    background-image: url(blurry567.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 500px;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.nav-list {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.nav-list li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white; /* Adjusted font color for better visibility */
+    font-weight: bold;
+}
+
+.nav-list li a:hover {
+    color: blue;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+/* Additional styles for buttons */
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: blue;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: gray;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+
+
+
+/* Style the intro section */
+
+
+
+/* Style the features section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 40px;
+}
+
+/* Style the testimonials section */
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+/* Style the gallery section */
+.gallery img {
+    max-width: 100%;
+}
+
+/* Style the stats section */
+.stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Style the team section */
+.team {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Style the blog section */
+.blog {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Style the footer section */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style social icons */
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
